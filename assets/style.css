@@ -40,6 +40,7 @@ h2, h3 {
 .subtext {
     letter-spacing: 8px;
     font-size: 15px;
+    white-space: nowrap;
 }
 
 a {
@@ -75,7 +76,7 @@ a:hover {
 @media (max-width: 635px) {
 
     h1 {
-        font-size: 39px;
+        font-size: 55px;
     }
 
     p {
@@ -102,6 +103,10 @@ a:hover {
         font-size: 11px;
         line-height: 2;
         text-align: center;
+    }
+
+    .subtext {
+        white-space: normal;
     }
 
     a {
